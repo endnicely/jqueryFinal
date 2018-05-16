@@ -4,10 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>A jQuery Accordion</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
  
   <script>
   $( function() {
@@ -26,10 +25,10 @@
       }
     });
   
-    $(".ui-accordion-header").css( "border-radius", "10px 10px 10px 10px" );
+    $(".ui-accordion-header").css( "border-radius", "7px 7px 7px 7px" );
   
     $(".ui-accordion-header.ui-state-active").css( "border","1px solid #ffffff" );
-    $(".ui-accordion-header.ui-state-active").css( "border-radius", "10px 10px 0 0" );
+    $(".ui-accordion-header.ui-state-active").css( "border-radius", "7px 7px 0 0" );
     $(".ui-accordion-header, .ui-accordion-header.ui-state-active").css("color","#ffffff");
     $(".ui-accordion-header, .ui-accordion-header.ui-state-active").css("font-weight", "bold");
 //    $(".ui-accordion-header").css( "background-color","#298975" );
